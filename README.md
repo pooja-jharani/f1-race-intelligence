@@ -1,6 +1,6 @@
 # Formula 1 Race Intelligence Dashboard
 
-An interactive Formula 1 analytics project (2010-2026) built with Tableau and presented on an HTML web page.
+An interactive Formula 1 analytics project (2010-2026) built with Tableau and presented on a React web app.
 
 ## Live Links
 
@@ -10,7 +10,7 @@ An interactive Formula 1 analytics project (2010-2026) built with Tableau and pr
 
 ## Overview
 
-This project explores 17 seasons of Formula 1 data to understand driver performance, team championship trends, tyre strategy, circuit participation, driver reliability and podium achievements. The dashboard and story are built in Tableau, published on Tableau Public, and embedded in an HTML page.
+This project explores 17 seasons of Formula 1 data to understand driver performance, team championship trends, tyre strategy, circuit participation, driver reliability and podium achievements. The dashboard and story are built in Tableau, published on Tableau Public, and embedded in a React web app hosted on Vercel.
 
 **Intended users:** team strategists, race engineers, motorsport journalists and F1 fans.
 
@@ -49,41 +49,56 @@ This project explores 17 seasons of Formula 1 data to understand driver performa
 ## Tech Stack
 
 - Tableau Desktop / Tableau Public
-- HTML, CSS, JavaScript
-- GitHub and GitHub Pages
+- React, Vite, TypeScript, Tailwind CSS
+- GitHub (version control) and Vercel (hosting)
 
 ## Project Structure
 
 ```
 f1-race-intelligence/
+├── src/             (React components and app code)
+├── public/          (static assets)
 ├── index.html
-├── README.md
-├── static/          (CSS, JS, images)
-├── data/            (dataset, CSV)
-└── screenshots/     (dashboard images)
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── .env.example
+└── README.md
 ```
 
 ## How to Run Locally
 
-1. Download or clone this repository.
-2. Open `index.html` in any modern browser (Chrome, Edge or Safari).
-3. An internet connection is needed to load the embedded Tableau dashboard.
+1. Install [Node.js](https://nodejs.org) (version 18 or higher).
+2. Clone this repository:
+   ```
+   git clone https://github.com/pooja-jharani/f1-race-intelligence.git
+   cd f1-race-intelligence
+   ```
+3. Install dependencies:
+   ```
+   npm install --legacy-peer-deps
+   ```
+4. Start the development server:
+   ```
+   npm run dev
+   ```
+5. Open the local address shown in the terminal. An internet connection is needed to load the embedded Tableau dashboard.
 
 ## Dataset
 
 [ADD DATASET NAME AND SOURCE LINK, e.g. Kaggle / Ergast / official F1 data]
-
-## Screenshots
-
-![Dashboard](screenshots/dashboard.png)
-![Story](screenshots/story.png)
 
 ## Publishing to Tableau Public
 
 1. Open the workbook in Tableau Desktop.
 2. Go to **File > Save to Tableau Public** and sign in.
 3. Name the workbook and click **Save**.
-4. Copy the share link or embed code and add it to `index.html`.
+4. Click **Share** on the published viz and copy the link or embed code.
+5. Paste it into the dashboard section of the web app in `src/`.
+
+## Deployment
+
+The web app is deployed on Vercel and redeploys automatically on every push to the `main` branch.
 
 ## Future Scope
 
