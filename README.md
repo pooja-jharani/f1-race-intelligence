@@ -6,7 +6,7 @@ An interactive Formula 1 analytics project (2010-2026) built with Tableau and pr
 
 - **Tableau Dashboard:** [ADD YOUR TABLEAU PUBLIC DASHBOARD LINK]
 - **Tableau Story:** [ADD YOUR TABLEAU PUBLIC STORY LINK]
-- **Live Demo:** https://[YOUR-GITHUB-USERNAME].github.io/f1-race-intelligence
+- - **Live Demo:** https://f1-race-intelligence-t9b7.vercel.app/
 
 ## Overview
 
@@ -96,4 +96,4 @@ f1-race-intelligence/
 
 **Pooja Jharani**
 B.Tech (Advanced AI), Medi-Caps University, Indore
-GitHub: [ADD YOUR GITHUB LINK]
+GitHub: https://github.com/pooja-jharani
