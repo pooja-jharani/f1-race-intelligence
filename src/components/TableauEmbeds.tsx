@@ -128,9 +128,9 @@ export const TableauEmbeds: React.FC<TableauEmbedsProps> = ({ onOpenDownload }) 
     return () => clearTimeout(timer);
   }, [dashboardMode, storyMode]);
 
-  const dashboardUrl = "https://public.tableau.com/views/F1RACEINTELLIGENCEDASHBOARD/Dashboard?:embed=yes&:showVizHome=no&:toolbar=n&:display_count=yes";
-  const storyUrl = "https://public.tableau.com/views/F1RACEStory/Story1?:embed=yes&:showVizHome=no&:toolbar=n&:display_count=yes";
-
+  const dashboardUrl = "https://public.tableau.com/shared/QX5WYWDYR?:embed=yes&:showVizHome=no&:toolbar=n&:display_count=yes";
+  const storyUrl = "https://public.tableau.com/shared/QX5WYWDYR?:embed=yes&:showVizHome=no&:toolbar=n&:display_count=yes";
+  
   return (
     <div className="space-y-24 bg-[#0B0E14] py-16">
       
