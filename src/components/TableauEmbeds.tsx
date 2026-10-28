@@ -129,7 +129,7 @@ export const TableauEmbeds: React.FC<TableauEmbedsProps> = ({ onOpenDownload }) 
   }, [dashboardMode, storyMode]);
 
   const dashboardUrl = "https://public.tableau.com/shared/QX5WYWDYR?:embed=yes&:showVizHome=no&:toolbar=n&:display_count=yes";
-  const storyUrl = "https://public.tableau.com/shared/QX5WYWDYR?:embed=yes&:showVizHome=no&:toolbar=n&:display_count=yes";
+ const storyUrl = "https://public.tableau.com/shared/YOUR_STORY_ID?:embed=yes&:showVizHome=no&:toolbar=n&:display_count=yes";
   
   return (
     <div className="space-y-24 bg-[#0B0E14] py-16">
