@@ -4,8 +4,7 @@ An interactive Formula 1 analytics project (2010-2026) built with Tableau and pr
 
 ## Live Links
 
-- **Tableau Dashboard:** [ADD YOUR TABLEAU PUBLIC DASHBOARD LINK]
-- **Tableau Story:** [ADD YOUR TABLEAU PUBLIC STORY LINK]
+- **Tableau Dashboard:** https://public.tableau.com/shared/QX5WYWDYR?:display_count=n&:origin=viz_share_link
 - **Live Demo:** https://f1-race-intelligence-t9b7.vercel.app/
 
 ## Overview
