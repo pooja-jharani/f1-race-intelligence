@@ -1,0 +1,8 @@
+{
+  "name": "Formula 1 Race Intelligence Dashboard",
+  "description": "Deep-dive analytics into Formula 1 Championship data synthesizing 17 seasons of telemetry, driver metrics, tyre degradation, and championship intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
